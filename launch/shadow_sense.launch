@@ -1,0 +1,5 @@
+<launch>
+  <node name="latch" pkg="controller" type="latch.py" output="screen"/>
+  <node name="predictor_ros" pkg="controller" type="predictor_ros.py" output="screen"/>
+  <node name="webcam_node" pkg="controller" type="webcam_node.py" output="screen"/>
+</launch>

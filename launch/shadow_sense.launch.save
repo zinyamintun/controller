@@ -1,0 +1,3 @@
+<launch>
+  <node name="latch" pkg="shadow_sense" type="latch.py" output="screen"/>
+</launch>

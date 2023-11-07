@@ -1,0 +1,6 @@
+<launch>
+  <node name="smooth" pkg="controller" type="smooth.py" output="screen"/>
+  <node name="safetyswitch" pkg="controller" type="safety_switch.py" output="screen"/>
+  <node name="inverter" pkg="controller" type="inverter.py" output="screen"/>
+  <node name="cleaner" pkg="controller" type="cleaner.py" output="screen"/>
+</launch>
