@@ -164,24 +164,24 @@ include_directories(
 #   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 # )
 catkin_python_setup()
-catkin_install_python(PROGRAMS src/latch.py
+catkin_install_python(PROGRAMS src/latch.py src/predictor_ros.py src/webcam_node.py src/smooth.py src/safety_switch.py src/subsciber_test2.py src/jackal/human_roadmap/cleaner.py src/jackal/linearization/inverter.py
 	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
-catkin_install_python(PROGRAMS src/predictor_ros.py
-	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
-catkin_install_python(PROGRAMS src/webcam_node.py
-	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
-catkin_install_python(PROGRAMS src/smooth.py
-	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
-catkin_install_python(PROGRAMS src/safety_switch.py
-	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
-catkin_install_python(PROGRAMS src/subsciber_test2.py
-	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
-catkin_install_python(PROGRAMS src/jackal/human_roadmap/cleaner.py
-	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
-catkin_install_python(PROGRAMS src/jackal/linearization/inverter.py
-	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
-catkin_install_python(PROGRAMS src/jackal/human_roadmap/roadmap.py
-	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+# catkin_install_python(PROGRAMS src/predictor_ros.py
+# 	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+# catkin_install_python(PROGRAMS src/webcam_node.py
+# 	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+# catkin_install_python(PROGRAMS src/smooth.py
+# 	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+# catkin_install_python(PROGRAMS src/safety_switch.py
+#	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+# catkin_install_python(PROGRAMS src/subsciber_test2.py
+# 	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+# catkin_install_python(PROGRAMS src/jackal/human_roadmap/cleaner.py
+# 	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+# catkin_install_python(PROGRAMS src/jackal/linearization/inverter.py
+# 	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+# catkin_install_python(PROGRAMS src/jackal/human_roadmap/roadmap.py
+# 	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
 ## Mark executables for installation
 ## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_executables.html
