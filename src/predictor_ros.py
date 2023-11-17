@@ -40,7 +40,7 @@ class Camera(object):
 
         self.rawpub = rospy.Publisher(self.pubstr, Bool, queue_size=10)
 
-        self.clf = load("yuhan_classifier/ad_hoc/ad_hoc/classifiers/super.joblib")
+        self.clf = load("/home/administrator/nri_workspace/src/controller/src/jackal/shadowsense-training/yuhan_classifier/ad_hoc/ad_hoc/classifiers/super_clean.joblib")
 
     def listen(self):
         rospy.Subscriber(self.listeningto, Image, self.run)
